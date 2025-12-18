@@ -1,6 +1,7 @@
 services:
-  - type: static_site
+  - type: web
     name: anime-streaming-pwa
-    env: static
+    runtime: static
+    region: singapore
     buildCommand: npm run build
     staticPublishPath: ./build
