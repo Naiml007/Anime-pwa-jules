@@ -2,6 +2,8 @@
 
 This is a starter project for an Anime Streaming Progressive Web App (PWA) built with React.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/your-username/anime-streaming-pwa)
+
 ## Features
 
 *   **Progressive Web App (PWA):** Optimized for mobile phones with offline support, caching, and installability.
@@ -22,11 +24,14 @@ To get a local copy up and running, follow these simple steps.
 
 ### Installation
 
-1.  Clone the repo
+1.  **Fork this repository:**
+    *   Click the "Fork" button at the top right of this page.
+
+2.  **Clone your forked repository:**
     ```sh
     git clone https://github.com/your_username/anime-streaming-pwa.git
     ```
-2.  Install NPM packages
+3.  **Install NPM packages:**
     ```sh
     cd anime-streaming-pwa
     npm install
@@ -63,15 +68,25 @@ Replace `https://your-api-url.onrender.com` with the URL of your deployed Consum
 
 ## PWA Deployment (Render)
 
-You can deploy the PWA to Render by following these steps:
+### One-Click Deploy
+
+1.  **Update the Deploy Button URL:**
+    *   In your forked repository on GitHub, edit the `README.md` file.
+    *   Replace `https://github.com/your-username/anime-streaming-pwa` in the "Deploy to Render" button's URL with the URL of your forked repository.
+    *   Commit the changes.
+
+2.  **Click the Deploy Button:**
+    *   Click the "Deploy to Render" button at the top of this README.
+    *   Render will automatically use the `render.yaml` file in this repository to configure the deployment.
+
+### Manual Deployment
+
+If you prefer to deploy manually, you can follow these steps:
 
 1.  **Create a new Static Site on Render:**
     *   Go to your Render dashboard and click "New" > "Static Site".
     *   Connect your GitHub account and select your PWA repository.
-    *   Give your site a name (e.g., `anime-flix`).
-    *   Select the `main` branch.
-    *   For the "Build Command", enter `npm run build`.
-    *   For the "Publish Directory", enter `build`.
+    *   Render will automatically detect the settings in the `render.yaml` file.
     *   Click "Create Static Site".
 
 ## Available Scripts
