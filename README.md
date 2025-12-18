@@ -2,8 +2,7 @@
 
 This is a starter project for an Anime Streaming Progressive Web App (PWA) built with React.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Naiml007/anime-streaming-pwa)
-
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Naiml007/anime-streaming-pwa-starter-3289903977589173192)
 
 ## Features
 
