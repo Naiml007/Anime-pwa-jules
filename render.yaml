@@ -4,4 +4,4 @@ services:
     runtime: static
     region: singapore
     buildCommand: npm run build
-    staticPublishPath: ./build
+    staticPublishPath: build
